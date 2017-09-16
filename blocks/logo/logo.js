@@ -1,4 +1,5 @@
 import React from 'react';
+import 'redux';
 
 export default class Logo extends React.Component {
     render() {

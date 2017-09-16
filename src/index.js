@@ -1,3 +1,3 @@
-import logo from 'b:logo';
+import logo from '../blocks/logo/logo';
 
 console.log(logo);

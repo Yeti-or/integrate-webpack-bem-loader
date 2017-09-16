@@ -1,2 +1,3 @@
-const logo = require('b:logo');
+import logo from 'b:logo';
+
 console.log(logo);

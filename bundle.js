@@ -65,20 +65,32 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = 'logo';
+"use strict";
 
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = 'logo';
 
 /***/ }),
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-const logo = ((
+"use strict";
+
+
+var _bLogo = ((
 (__webpack_require__(0).default || __webpack_require__(0)).applyDecls()
 ));
-console.log(logo);
 
+var _bLogo2 = _interopRequireDefault(_bLogo);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+console.log(_bLogo2.default);
 
 /***/ })
 /******/ ]);

@@ -1,9 +1,11 @@
 import React from 'react';
+import redux from 'redux';
+import { decl } from 'bem-react-core';
 
-export default class Logo extends React.Component {
-    render() {
-        return (
-            <h1>Logo h1!</h1>
-        );
+export default decl({
+    block: 'Logo',
+    tag: 'h1',
+    content() {
+        return 'Logo h1!';
     }
-};
+});
